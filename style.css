@@ -1,0 +1,78 @@
+body {
+  background-image: url('alex.jpg');
+  background-size: cover;
+}
+
+.box, .text-box {
+  position: absolute;
+  height: 350px;
+  width: 540px;
+  top: 90px;
+  left: 47%;
+}
+
+.box {
+  background-color: #000;
+  opacity: 0.3;
+  z-index: 500;
+}
+
+.text-box {
+  z-index: 1000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.container {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.name {
+  font-size: 80px;
+}
+
+.subtitle {
+  font-size: 22px;
+  margin-top: 13px;
+}
+
+.more {
+  font-size: 16px;
+  margin-top: 58px;
+  font-weight: 300;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 30px;
+  line-height: 1.5em;
+  padding-left: 0;
+}
+
+li {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(43, 130, 173);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+@media only screen and (max-width: 1210px) {
+  body {
+    background-size: 1210px auto;
+  }
+}
