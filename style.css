@@ -1,6 +1,14 @@
-body {
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+.index {
+  height: 100%;
+  width: 100%;
   background-image: url('alex.jpg');
-  background-size: cover;
+  background-size: cover;  
 }
 
 .box, .text-box {
@@ -24,27 +32,27 @@ body {
   color: #fff;
 }
 
-.container {
+.index .container {
   margin-left: 20px;
   margin-top: 10px;
 }
 
-.name {
+.index .container .name {
   font-size: 80px;
 }
 
-.subtitle {
+.index .container .subtitle {
   font-size: 22px;
   margin-top: 13px;
 }
 
-.more {
+.index .container .more {
   font-size: 16px;
   margin-top: 58px;
   font-weight: 300;
 }
 
-ul {
+ul.links{
   list-style-type: none;
   font-weight: 300;
   font-size: 16px;
@@ -53,23 +61,30 @@ ul {
   padding-left: 0;
 }
 
-li {
+.index .links li {
   vertical-align: middle;
 }
 
-a {
+.index .links a {
   text-decoration: none;
   color: rgb(43, 130, 173);
 }
 
-a:hover {
+.index .links a:hover {
   text-decoration: underline;
 }
 
-img {
+.index .links img {
   vertical-align: middle;
   padding-right: 5px;
 }
+
+.content {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 @media only screen and (max-width: 1210px) {
   body {
