@@ -125,12 +125,12 @@ ul.links{
   color: #888;
 }
 
-.nav .selected {
+.nav .active {
   background: #fff;
   color: #000;
 }
 
-.nav .selected:hover {
+.nav .active:hover {
   background: #fff;
   color: #000;
 }
@@ -193,16 +193,16 @@ section .element .name {
     width: auto;
   }
 
-  .index-container {
-    padding-top: 300px;
-  }
-
   .index-container .name{
     font-size: 48px;
   }
 
   .links li {
     text-decoration: underline; 
+  }
+
+  .nav .button {
+    display: none;
   }
 }
 
@@ -240,7 +240,29 @@ section .element .name {
     padding-top: 20px;
   }
 
+  section .elements {
+    min-height: 1px;
+  }
+
+  section .elements#first {
+    height: 550px;
+  }
+
+  section .elements#second {
+    height: 300px;
+  }
+
+  section .elements#third {
+    height: 600px;
+  }
+
   section .element {
+    padding-bottom: 20px;
     float: none;
+    min-height: 0;
+  }
+
+  .nav .button {
+    display: none;
   }
 }

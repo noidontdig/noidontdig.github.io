@@ -1,9 +1,9 @@
 $(document).ready(function(){
   $(".button").click(function(){
-    $(".selected").removeClass("selected");
-    $(this).addClass("selected");
+    $(".active").removeClass("active");
+    $(this).addClass("active");
   });
-
+  
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
         || location.hostname == this.hostname) {
