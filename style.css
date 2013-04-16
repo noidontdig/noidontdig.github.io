@@ -164,13 +164,19 @@ section .elements {
   padding: 0;
   padding-top: 32px;
   list-style-type: none;
+  height: 240px;
 }
 
 section .element {
-  max-width: 250px;
+  width: 260px;
   margin-right: 40px;
+  min-height: 150px;
   float: left;
 }
+
+section .element .name {
+  color: #888;
+} 
 
 
 @media only screen and (min-width: 790px) and (max-width: 1214px) {
