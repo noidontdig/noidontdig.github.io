@@ -4,52 +4,38 @@ html, body {
   margin: 0 0 0 0;
 }
 
-.index {
+.img-container {
+  width: 40%;
   height: 100%;
-  width: 100%;
-  background-image: url('alex.jpg');
-  background-size: cover;  
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
 }
 
-.box, .text-box {
-  position: absolute;
-  height: 350px;
-  width: 540px;
-  top: 90px;
-  left: 47%;
+.img-container img {
+  height: 100%;
 }
 
-.box {
-  background-color: #000;
-  opacity: 0.3;
-  z-index: 500;
+.index-container {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 40%;
+  padding-top: 300px;
 }
 
-.text-box {
-  z-index: 1000;
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  color: #fff;
-}
-
-.index .container {
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-.index .container .name {
+.index-container .name {
   font-size: 80px;
 }
 
-.index .container .subtitle {
-  font-size: 22px;
-  margin-top: 13px;
+.index-container .subtitle {
+  font-size: 32px;
+  margin-top: 16px;
 }
 
-.index .container .more {
+.index-container .more {
   font-size: 16px;
-  margin-top: 58px;
+  margin-top: 16px;
   font-weight: 300;
+  line-height: 1.5em;
 }
 
 ul.links{
@@ -61,22 +47,17 @@ ul.links{
   padding-left: 0;
 }
 
-.index .links li {
+.links li {
   vertical-align: middle;
 }
 
-.index .links a {
+.links a {
   text-decoration: none;
   color: rgb(43, 130, 173);
 }
 
-.index .links a:hover {
+.links a:hover {
   text-decoration: underline;
-}
-
-.index .links img {
-  vertical-align: middle;
-  padding-right: 5px;
 }
 
 .content {
@@ -86,8 +67,40 @@ ul.links{
 }
 
 
-@media only screen and (max-width: 1210px) {
-  body {
-    background-size: 1210px auto;
+@media only screen and (min-width: 659px) and (max-width: 926px) {
+  .index-container {
+    padding-top: 200px;
+  }
+}
+
+@media only screen and (min-width: 555px) and (max-width: 658px) {
+  .index-container {
+    padding-top: 200px;
+  }
+
+  .index-container .name{
+    font-size: 64px;
+  }
+}
+
+@media only screen and (max-width: 554px) {
+  .img-container {
+    position: absolute;
+    top: 350px;
+    height: 50%;
+    width: 100%;
+  }
+
+  .index-container {
+    position: absolute;
+    top: 0;
+    padding-top: 0px;
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .index-container .name{
+    font-size: 48px;
   }
 }
