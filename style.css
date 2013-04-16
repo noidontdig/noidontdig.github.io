@@ -32,7 +32,7 @@ html, body {
 }
 
 .index-container .name {
-  font-size: 80px;
+  font-size: 64px;
 }
 
 .index-container .subtitle {
@@ -166,7 +166,7 @@ section .element {
 }
 
 
-@media only screen and (min-width: 1021px) and (max-width: 1214px) {
+@media only screen and (min-width: 790px) and (max-width: 1214px) {
   .img-container img {
     height: 100%;
     width: auto;
@@ -174,7 +174,7 @@ section .element {
 }
 
 
-@media only screen and (min-width: 790px) and (max-width: 1020px) {
+@media only screen and (min-width: 574px) and (max-width: 789px) {
   .img-container img {
     height: 100%;
     width: auto;
@@ -185,22 +185,11 @@ section .element {
   }
 
   .index-container .name{
-    font-size: 64px;
-  }
-}
-
-@media only screen and (min-width: 574px) and (max-width: 789px) {
-  .img-container img {
-    height: auto;
-    width: 100%;
-  }
-
-  .index-container {
-    padding-top: 50px;
-  }
-
-  .index-container .name{
     font-size: 48px;
+  }
+
+  .links li {
+    text-decoration: underline; 
   }
 }
 
