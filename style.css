@@ -70,9 +70,90 @@ ul.links{
 }
 
 .content {
-  width: 900px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  height: 100%;
+}
+
+.bar {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 64px;
+  background: #000;
+  z-index: 2;
+}
+
+.nav {
+  font-family: 'Merriweather Sans', sans-serif;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height: 64px;
+  z-index: 3;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav .alex {
+  padding-top: 12px;
+  font-size: 32px;
+  padding-right: 128px;
+  padding-left: 16px;
+  float: left;
+}
+
+.nav .buttons {
+  font-size: 16px;
+  right: 0px;
+}
+
+.nav .button {
+  text-align: center;
+  padding-top: 24px;
+  height: 64px;
+  width: 128px;
+  float: left;
+}
+
+.nav .selected {
+  background: #fff;
+}
+
+.nav .selected a {
+  color: #000;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+section .inner {
+  width: 100%;
+  padding-top: 200px;
+}
+
+section .title {
+  width: 180px;
+  float: left;
+  margin-right: 20px;
+  text-align: right;
+}
+
+section .elements {
+  max-width: 720px;
+  margin-left: 160px;
+  list-style-type: none;
+}
+
+section .element {
+  margin-left: 0;
 }
 
 
@@ -123,15 +204,15 @@ ul.links{
   }
 
   .index-container {
-    color: #000;
     position: absolute;
     top: 0;
     padding-top: 0px;
     width: 100%;
     margin-left: 0;
     padding: 10px;
-    background: #fff;
     height: 250px;
+    background: #fff;
+    color: #000;
   }
 
   .index-container .name{
@@ -141,5 +222,6 @@ ul.links{
   .links li {
     display: inline;
     padding-right: 10px;
+    text-decoration: underline;
   }
 }
