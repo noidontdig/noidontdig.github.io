@@ -120,13 +120,19 @@ ul.links{
   float: left;
 }
 
+.nav .button:hover {
+  background: #333;
+}
+
 .nav .selected {
+  background: #fff;
+  color: #000;
+}
+
+.nav .selected:hover {
   background: #fff;
 }
 
-.nav .selected a {
-  color: #000;
-}
 
 section {
   width: 100%;
