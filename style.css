@@ -99,14 +99,14 @@ ul.links{
   }
 }
 
-@media only screen and (min-width: 609px) and (max-width: 789px) {
+@media only screen and (min-width: 574px) and (max-width: 789px) {
   .img-container img {
     height: auto;
     width: 100%;
   }
 
   .index-container {
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
   .index-container .name{
@@ -114,7 +114,7 @@ ul.links{
   }
 }
 
-@media only screen and (max-width: 608px) {
+@media only screen and (max-width: 573px) {
   .img-container {
     position: absolute;
     top: 270px;
