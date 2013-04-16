@@ -121,7 +121,8 @@ ul.links{
 }
 
 .nav .button:hover {
-  background: #333;
+  /**background: #333;*/
+  color: #888;
 }
 
 .nav .selected {
@@ -131,10 +132,12 @@ ul.links{
 
 .nav .selected:hover {
   background: #fff;
+  color: #000;
 }
 
 
 section {
+  font-family: 'Merriweather Sans', sans-serif;
   width: 100%;
   height: 100%;
   vertical-align: middle;
@@ -146,20 +149,20 @@ section .inner {
 }
 
 section .title {
-  width: 180px;
-  float: left;
-  margin-right: 20px;
-  text-align: right;
+  width: 200px;
+  font-size: 32px;
 }
 
 section .elements {
-  max-width: 720px;
-  margin-left: 160px;
+  padding: 0;
+  padding-top: 32px;
   list-style-type: none;
 }
 
 section .element {
-  margin-left: 0;
+  max-width: 250px;
+  margin-right: 40px;
+  float: left;
 }
 
 
