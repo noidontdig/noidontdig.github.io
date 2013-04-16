@@ -6,7 +6,6 @@ html, body {
 
 .img-container {
   width: 100%;
-  height: 100%;
   overflow: hidden;
   float: left;
   margin-right: 10px;
@@ -22,7 +21,7 @@ html, body {
   top: 0;
   z-index: 2;
   background: #111;
-  width: 1000px;
+  width: 60%;
   height: 100%;
   color: #fff;
   font-family: 'Merriweather Sans', sans-serif;
@@ -77,13 +76,35 @@ ul.links{
 }
 
 
-@media only screen and (min-width: 659px) and (max-width: 926px) {
-  .index-container {
-    padding-top: 200px;
+@media only screen and (min-width: 1021px) and (max-width: 1214px) {
+  .img-container img {
+    height: 100%;
+    width: auto;
   }
 }
 
-@media only screen and (min-width: 555px) and (max-width: 658px) {
+
+@media only screen and (min-width: 790px) and (max-width: 1020px) {
+  .img-container img {
+    height: 100%;
+    width: auto;
+  }
+
+  .index-container {
+    padding-top: 300px;
+  }
+
+  .index-container .name{
+    font-size: 64px;
+  }
+}
+
+@media only screen and (min-width: 555px) and (max-width: 789px) {
+  .img-container img {
+    height: 100%;
+    width: auto;
+  }
+
   .index-container {
     padding-top: 200px;
   }
