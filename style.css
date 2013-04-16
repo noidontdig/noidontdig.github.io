@@ -86,7 +86,7 @@ ul.links{
 @media only screen and (max-width: 554px) {
   .img-container {
     position: absolute;
-    top: 350px;
+    top: 270px;
     height: 50%;
     width: 100%;
   }
@@ -102,5 +102,10 @@ ul.links{
 
   .index-container .name{
     font-size: 48px;
+  }
+
+  .links li {
+    display: inline;
+    padding-right: 10px;
   }
 }
