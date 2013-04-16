@@ -170,12 +170,13 @@ section .elements {
 section .element {
   width: 260px;
   margin-right: 40px;
-  min-height: 150px;
+  min-height: 160px;
   float: left;
 }
 
 section .element .name {
   color: #888;
+  padding-bottom: 8px;
 } 
 
 
