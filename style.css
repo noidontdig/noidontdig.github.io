@@ -298,4 +298,8 @@ section .element .date {
   .nav .button {
     display: none;
   }
+
+  section .element .date {
+    text-align: left;
+  }
 }
