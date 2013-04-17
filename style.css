@@ -311,11 +311,11 @@ section .element .date {
   }
 
   section .elements#first {
-    height: 570px;
+    height: 630px;
   }
 
   section .elements#second {
-    height: 300px;
+    height: 450px;
   }
 
   section .elements#third {
