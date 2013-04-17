@@ -211,6 +211,27 @@ section .element .date {
   text-align: right;
 }    
 
+.bits {
+  font-family: 'Merriweather Sans', sans-serif;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 20px;
+}
+
+.bit {
+  padding-left: 10px;
+}
+
+.bit a {
+  text-decoration: none;
+  color: rgb(43, 130, 173);
+  border-bottom: 1px dotted rgb(43, 130, 173);
+}
+
+.bit a:hover {
+
+}
 
 @media only screen and (min-width: 790px) and (max-width: 1214px) {
   .img-container img {
@@ -244,6 +265,10 @@ section .element .date {
 
   section {
     min-height: 700px;
+  }
+
+  .bits {
+    position: absolute;
   }
 }
 
@@ -309,5 +334,9 @@ section .element .date {
 
   section .element .date {
     text-align: left;
+  }
+
+  .bits {
+    position: absolute;
   }
 }
