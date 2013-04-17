@@ -146,7 +146,7 @@ section {
 section .inner {
   width: 100%;
   padding-top: 200px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 section#experience .inner {
@@ -236,6 +236,14 @@ section .element .date {
 
   .nav .button {
     display: none;
+  }
+
+  section .inner {
+    padding-top: 20px;
+  }
+
+  section {
+    min-height: 700px;
   }
 }
 
