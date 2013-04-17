@@ -164,7 +164,7 @@ section .elements {
   padding: 0;
   padding-top: 32px;
   list-style-type: none;
-  height: 240px;
+  min-height: 240px;
 }
 
 section .element {
