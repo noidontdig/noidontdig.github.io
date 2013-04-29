@@ -1,4 +1,4 @@
-# Alex Qin's solution to the Brute-force Towers of Hanoi problem
+# Brute-force Towers of Hanoi
 
 rods =  { a: [4, 3, 2, 1], 
           b: [], 
