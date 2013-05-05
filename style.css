@@ -31,6 +31,37 @@ html, body {
   opacity: 0.7;
 }
 
+.container {
+  padding-top: 17%;
+}
+.container .inner {
+  width: 750px;
+  height: 266px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #000;
+}
+
+.container .inner img {
+  float: left;
+  margin-right: 24px;
+}
+
+.container .inner .text {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #fff;
+  padding: 20px;
+}
+
+.container .inner .text .name {
+  font-size: 48px;
+}
+
+.container .inner .text .subtitle {
+  font-size: 32px;
+  margin-top: 8px;
+}
+
 .index-container .name {
   font-size: 64px;
 }
@@ -66,7 +97,7 @@ ul.links{
 }
 
 .links a:hover {
-  text-decoration: underline;
+  border-bottom: 1px dotted rgb(43, 130, 173);
 }
 
 .content {
@@ -256,8 +287,12 @@ section .element .date {
   }
 
   .links li {
-    text-decoration: underline; 
+    text-decoration: underline;
   }
+
+  .links a:hover {
+    border-bottom: none;
+  } 
 
   .nav .button {
     display: none;
@@ -306,8 +341,8 @@ section .element .date {
 
   .links li {
     display: inline;
-    padding-right: 10px;
-    text-decoration: underline;
+    margin-right: 10px;
+    border-bottom: 1px dotted rgb(43, 130, 173);  
   }
 
   section .inner {
