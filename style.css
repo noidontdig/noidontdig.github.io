@@ -335,7 +335,26 @@ section .element .date {
     font-size: 48px;
   }
 
-  .index-container .subtitle {
+  .container {
+    padding-top: 0;
+  }
+
+  .container .inner {
+    height: 200px;
+  }
+
+  .container .inner img {
+    padding-top: 200px;
+    margin-right: 0;
+    width: 573px;
+  }
+
+  .container .inner .text {
+    position: absolute;
+    left: 0;
+  }
+
+  .container .inner .text .subtitle {
     font-size: 24px;
   }
 
