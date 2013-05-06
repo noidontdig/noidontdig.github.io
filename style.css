@@ -404,4 +404,8 @@ section .element .date {
   .bits {
     position: absolute;
   }
+
+  section#leadership {
+    padding-bottom: 50px;
+  }
 }
