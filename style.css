@@ -138,6 +138,10 @@ ul.links{
   float: left;
 }
 
+.nav .alex a:hover {
+  color: #888;
+}
+
 .nav .buttons {
   font-size: 16px;
   right: 0px;
@@ -152,7 +156,6 @@ ul.links{
 }
 
 .nav .button:hover {
-  /**background: #333;*/
   color: #888;
 }
 
