@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $(".button").click(function(){
-    $(".active").removeClass("active");
-    $(this).addClass("active");
+    // $(".active").removeClass("active");
+    // $(this).addClass("active");
   });
   
   $('a[href*=#]:not([href=#])').click(function() {
