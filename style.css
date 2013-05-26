@@ -317,7 +317,7 @@ section .element .date {
 @media only screen and (max-width: 573px) {
   .img-container {
     position: absolute;
-    top: 270px;
+    top: 230px;
     height: 50%;
     width: 100%;
   }
@@ -329,7 +329,7 @@ section .element .date {
     width: 100%;
     margin-left: 0;
     padding: 10px;
-    height: 250px;
+    height: 210px;
     background: #fff;
     color: #000;
   }
