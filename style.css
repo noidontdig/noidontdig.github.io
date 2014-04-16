@@ -2,7 +2,9 @@ body {
   color: #444;
   font-family: 'Lusitana';
   font-size: 50px;
-  margin: 100px 0 0 200px;
+  margin: 100px auto;
+  max-width: 800px;
+  width: 90%;
 }
 
 p {
@@ -20,8 +22,8 @@ a:hover {
 
 @media (max-width: 600px) {
   body {
-    font-size: 24px;
-    margin: 20px;
+    font-size: 34px;
+    margin: 20px auto;
   }
 }
 
