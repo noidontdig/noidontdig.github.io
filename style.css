@@ -1,29 +1,25 @@
 body {
-  color: #444;
-  font-family: 'Lusitana';
-  font-size: 50px;
-  margin: 100px auto;
-  max-width: 800px;
-  width: 90%;
+	margin: auto;
+	width: 800px;
 }
 
-p {
-  margin: .5em 0;
+h1 { 
+	color: red; 
 }
 
-a {
-  color: #ff0066;
-  text-decoration: none;  
+.cats {
+	color: green;
 }
 
-a:hover {
-  text-decoration: underline;
+.dogs {
+	text-decoration: line-through;
 }
 
-@media (max-width: 600px) {
-  body {
-    font-size: 34px;
-    margin: 20px auto;
-  }
+span.underline {
+	color: purple;
 }
 
+.standout a {
+	color: orange;
+	font-size: 25px;
+}
