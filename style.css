@@ -13,11 +13,21 @@ p {
 
 a {
   color: #ff0066;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+.ari {
+  font-family: 'Amatic SC';
+  text-align: center;
+  width: 100%;
+}
+
+.ari h1 {
+  font-size: 50px;
 }
 
 @media (max-width: 600px) {
