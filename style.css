@@ -1,6 +1,6 @@
 body {
-  background-color: #FFCCE0;
-  color: #fff;
+  background-color: #ffcce0;
+  color: #ffffff;
   font-family: Helvetica, sans-serif;
   font-size: 60px;
   font-weight: bold;
@@ -10,12 +10,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-p {
-  margin: .5em 0;
-}
-
 a {
-  color: #FF3385;
+  color: #ff66A3;
   text-decoration: none;
 }
 
