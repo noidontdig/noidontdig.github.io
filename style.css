@@ -1,10 +1,13 @@
 body {
-  color: #444;
-  font-family: 'Lusitana';
-  font-size: 50px;
-  margin: 100px auto;
-  max-width: 800px;
+  background-color: #FFCCE0;
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 75px;
+  margin: 50px auto;
   width: 90%;
+  -webkit-font-smoothing: antialiased;
 }
 
 p {
@@ -12,7 +15,7 @@ p {
 }
 
 a {
-  color: #ff0066;
+  color: #FF3385;
   text-decoration: none;
 }
 
@@ -20,19 +23,10 @@ a:hover {
   text-decoration: underline;
 }
 
-.ari {
-  font-family: 'Amatic SC';
-  text-align: center;
-  width: 100%;
-}
-
-.ari h1 {
-  font-size: 50px;
-}
-
 @media (max-width: 600px) {
   body {
     font-size: 34px;
+    line-height: 40px;
     margin: 20px auto;
   }
 }
