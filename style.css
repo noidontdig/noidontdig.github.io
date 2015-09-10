@@ -1,4 +1,4 @@
-body {
+.home {
   background-color: #ffcce0;
   color: #ffffff;
   font-family: Helvetica, sans-serif;
@@ -10,20 +10,44 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a {
+.home a {
   color: #ff66A3;
   text-decoration: none;
 }
 
-a:hover {
+.home a:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
-  body {
+.resume {
+  max-width: 600px;
+  margin: 100px auto;
+}
+
+.resume h1, .resume h2 {
+  font-family: Helvetica, sans-serif;
+}
+
+.resume h1 {
+  color: #ff3385;
+}
+
+.resume a {
+  border-bottom: 1px dotted;
+  color: #000000;
+  text-decoration: none;
+}
+
+
+@media (max-width: 650px) {
+  .home {
     font-size: 34px;
     line-height: 40px;
     margin: 20px auto;
+  }
+
+  .resume {
+    margin: 20px;
   }
 }
 
