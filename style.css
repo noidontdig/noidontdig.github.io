@@ -24,11 +24,11 @@
   margin: 100px auto;
 }
 
-.resume h1, .resume h2 {
+.resume h1, .resume h2, .resume h3 {
   font-family: Helvetica, sans-serif;
 }
 
-.resume h1 {
+.resume h2 {
   color: #ff3385;
 }
 
