@@ -39,15 +39,15 @@
 }
 
 .yasqueen {
-  background-image: url('giphy.gif');
+  background-image: url('yasqueen.gif');
   background-size: cover;
-  margin: 200px auto 0 auto;
+  margin: 160px auto 0 auto;
   width: 90%;
 }
 
 .yasqueen h1 {
   font-family: monospace;
-  font-size: 50px;
+  font-size: 48px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -59,6 +59,10 @@
 
 .yasqueen a:hover {
   text-decoration: underline;
+}
+
+audio {
+  display: none;
 }
 
 .blink {
