@@ -38,6 +38,19 @@
   text-decoration: none;
 }
 
+.kenny {
+  background: #000;
+  color: #fff;
+  font-family: monospace;
+  font-size: 40px;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.kenny a {
+  color: red;
+}
+
 @media (max-width: 650px) {
   .home {
     font-size: 34px;
