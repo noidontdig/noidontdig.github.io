@@ -124,7 +124,7 @@
 
   .new .title {
     font-size: 40px;
-    top: 0;
+    top: 5px;
   }
 
   .new .summary {
