@@ -1,0 +1,119 @@
+.home {
+  background-color: #ffcce0;
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 75px;
+  margin: 50px auto;
+  width: 90%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.home a {
+  color: #ff66A3;
+  text-decoration: none;
+}
+
+.home a:hover {
+  text-decoration: underline;
+}
+
+.resume {
+  max-width: 600px;
+  margin: 100px auto;
+}
+
+.resume h1, .resume h2, .resume h3 {
+  font-family: Helvetica, sans-serif;
+}
+
+.resume h2 {
+  color: #ff3385;
+}
+
+.resume a {
+  border-bottom: 1px dotted;
+  color: #000000;
+  text-decoration: none;
+}
+
+.new {
+  margin: 0;
+  font-family: 'Karla', Helvetica, sans-serif;
+}
+
+.new img {
+  width: 100%;
+}
+
+.new .bubble {
+  font-size: 90px;
+  font-weight: bold;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+}
+
+.new .summary {
+  position: absolute;
+  right: 100px;
+  top: 220px;
+  width: 300px;
+}
+
+.new .summary p {
+  line
+}
+
+@media (max-width: 650px) {
+  .home {
+    font-size: 34px;
+    line-height: 40px;
+    margin: 20px auto;
+  }
+
+  .resume {
+    margin: 20px;
+  }
+}
+
+.animated {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(10%, 0, 0);
+    transform: translate3d(10%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(10%, 0, 0);
+    transform: translate3d(10%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
