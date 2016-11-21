@@ -2,7 +2,7 @@
 // # Scripts for alexq.in
 //
 
-var password = 'fight trump';
+var password = 'fight';
 var keys = '';
 document.addEventListener('keydown', onKeyDown);
 
@@ -14,6 +14,8 @@ function onKeyDown (event) {
 
 function checkPassword () {
   if (keys === password) {
-    document.querySelector('body').className = 'new leaders';
+    document.querySelectorAll('.new-leaders').forEach(function (el) {
+      el.classList.add('blink');
+    });
   }
 }

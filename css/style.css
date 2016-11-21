@@ -132,21 +132,22 @@
   }
 }
 
-.new-leaders-overlay {
-  background-color: #fff;
+.new-leaders {
   display: none;
+}
+
+.new-leaders.overlay {
+  background-color: #000;
   height: 100%;
   left: 0;
-  opacity: .6;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.new-leaders-text {
+.new-leaders.text {
   bottom: 50px;
   color: #ff0000;
-  display: none;
   font-family: 'Space Mono', monospace;
   font-size: 120px;
   font-weight: bold;
@@ -154,7 +155,34 @@
   position: fixed;
 }
 
-.leaders .new-leaders-overlay,
-.leaders .new-leaders-text {
+.blink {
   display: block;
+  -webkit-animation-name: blink;
+  animation-name: blink;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes blink {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
 }
