@@ -131,3 +131,30 @@
     top: 0;
   }
 }
+
+.new-leaders-overlay {
+  background-color: #fff;
+  display: none;
+  height: 100%;
+  left: 0;
+  opacity: .6;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.new-leaders-text {
+  bottom: 50px;
+  color: #ff0000;
+  display: none;
+  font-family: 'Space Mono', monospace;
+  font-size: 120px;
+  font-weight: bold;
+  left: 70px;
+  position: fixed;
+}
+
+.leaders .new-leaders-overlay,
+.leaders .new-leaders-text {
+  display: block;
+}
