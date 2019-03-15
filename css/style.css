@@ -34,14 +34,14 @@
 
 .bubble-container {
   position: absolute;
-  right: 100px;
-  top: 50px;
+  left: 30px;
+  top: 30px;
 }
 
 .bubble {
-  background-color: #fff;
+  color: #fff;
+  background-color: #000;
   padding: 15px 20px;
-  width: 420px;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
   -webkit-animation-fill-mode: both;
@@ -57,11 +57,10 @@
 
 .home .summary {
   font-size: 18px;
-  margin-top: 30px;
 }
 
 .home .summary a {
-  color: #ff66A3;
+  color: #fa201d;
   text-decoration: none;
 }
 
