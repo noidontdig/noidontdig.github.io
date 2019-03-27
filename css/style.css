@@ -1,35 +1,10 @@
-.resume {
-  max-width: 600px;
-  margin: 100px auto;
-}
-
-.resume h1, .resume h2, .resume h3 {
-  font-family: Helvetica, sans-serif;
-}
-
-.resume h2 {
-  color: #ff3385;
-}
-
-.resume a {
-  border-bottom: 1px dotted;
-  color: #000000;
-  text-decoration: none;
-}
-
-@media (max-width: 650px) {
-  .resume {
-    margin: 20px;
-  }
-}
-
 .home {
   background: #000;
   margin: 0;
   font-family: 'Karla', Helvetica, sans-serif;
 }
 
-.home img {
+img {
   width: 100%;
 }
 
@@ -43,56 +18,29 @@
   color: #fff;
   background-color: #000;
   padding: 15px 20px;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
 }
 
-.home .title {
-  font-size: 60px;
-  font-weight: bold;
+.summary {
+  font-size: 24px;
 }
 
-.home .summary {
-  font-size: 18px;
-}
-
-.home .summary a {
+.summary a {
   color: #fa201d;
   text-decoration: none;
 }
 
-.home .summary a:hover {
+.summary a:hover {
   border-bottom: 1px dotted;
 }
 
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+.item {
+  display: block;
+  height: 1.5em;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@media (max-width: 650px) {
+@media (max-width: 760px) {
   .bubble-container {
-    left: 0;
+    left: 10px;
     position: relative;
     top: 5px;
   }
@@ -102,66 +50,9 @@
     width: 90%;
   }
 
-  .home .title {
-    font-size: 40px;
-  }
-
-  .home .summary {
+  .summary {
+    font-size: 18px;
     margin-top: 0;
   }
 }
 
-.new-leaders {
-  display: none;
-}
-
-.new-leaders.overlay {
-  background-color: #000;
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.new-leaders.text {
-  bottom: 50px;
-  color: #ff0000;
-  font-family: 'Space Mono', monospace;
-  font-size: 120px;
-  font-weight: bold;
-  left: 70px;
-  position: fixed;
-}
-
-.blink {
-  display: block;
-  -webkit-animation-name: blink;
-  animation-name: blink;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-duration: .2s;
-  animation-duration: .2s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes blink {
-  from, 50%, to {
-    opacity: 1;
-  }
-
-  25%, 75% {
-    opacity: 0;
-  }
-}
-
-@keyframes blink {
-  from, 50%, to {
-    opacity: 1;
-  }
-
-  25%, 75% {
-    opacity: 0;
-  }
-}
