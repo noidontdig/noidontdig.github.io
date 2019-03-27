@@ -38,7 +38,7 @@ img {
   height: 1.5em;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 650px) {
   .bubble-container {
     left: 10px;
     position: relative;
