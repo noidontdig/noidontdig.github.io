@@ -2,9 +2,13 @@
   background: #FFFF00;
   margin: 30px;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: center;
 }
 
-.drawing {
-  width: 1162;
-  height: 652;
+img {
+  width: 1162px;
+  height: 652px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
