@@ -1,12 +1,12 @@
 .home {
   background: #FFFF00;
-  margin: 30px;
+  margin: 10px;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   text-align: center;
+  padding-top: 15%;
 }
 
 img {
-  margin-top: 180px;
   max-width: 490px;
   display: inline-block;
   margin-left: auto;
@@ -20,4 +20,10 @@ img {
 
 .email, .subtitle {
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 500px) {
+  img {
+    max-width: 100%; 
+  }
 }
