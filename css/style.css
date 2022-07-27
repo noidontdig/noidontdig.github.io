@@ -19,6 +19,10 @@ img {
 }
 
 @media screen and (max-width: 500px) {
+  .home {
+    padding-top: 20%; 
+  }
+  
   img {
     max-width: 100%; 
   }
