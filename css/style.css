@@ -1,9 +1,10 @@
 .home {
-  background: #fff;
+  background: #FFFF00;
   margin: 30px;
-  font-family: 'Karla', Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.red {
-  color: red; 
+.drawing {
+  width: 1162;
+  height: 652;
 }
